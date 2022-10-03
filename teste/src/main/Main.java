@@ -10,7 +10,7 @@ public class Main {
 
     
     public static void main(String[] args) {
-        abrir();
+        abrir(); // adicionar botao que abre
         new mp3_GUI().setVisible(true);
     }
     
