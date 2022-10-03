@@ -16,7 +16,7 @@ public class Player {
         
         if(retorno == JFileChooser.APPROVE_OPTION){
             caminhoArquivo = arquivo.getSelectedFile().getAbsolutePath();
-            JOptionPane.showMessageDialog(null, caminhoArquivo);
+            JOptionPane.showMessageDialog(null, caminhoArquivo); //a
         }
         
         
